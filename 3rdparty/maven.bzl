@@ -11,7 +11,7 @@ def list_dependencies():
             },
             "import_args": {
                 "default_visibility": [ "//visibility:public" ],
-                "exports": [ "@scala_scala_library//jar" ],
+                "exports": [ "@org_scala_lang_scala_library//jar" ],
                 "jar_sha256": "cc05b6ac379f9b45b6d832b7be556312039f3d57928b62190d3dcd04f34470b5",
                 "jar_urls": [
                     "http://central.maven.org/maven2/com/github/scopt/scopt_2.11/3.7.0/scopt_2.11-3.7.0.jar"
@@ -36,7 +36,7 @@ def list_dependencies():
                     "@play_routes_com_typesafe_play_twirl_api_2_11",
                     "@play_routes_commons_io_commons_io",
                     "@play_routes_org_scala_lang_modules_scala_parser_combinators_2_11",
-                    "@scala_scala_library//jar"
+                    "@org_scala_lang_scala_library//jar"
                 ],
                 "jar_sha256": "f91f01e6828b0ef3f893cffa93cb87d755297f993fff3b07cf8eec1144cc1b42",
                 "jar_urls": [
